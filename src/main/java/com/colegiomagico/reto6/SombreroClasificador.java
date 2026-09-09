@@ -19,6 +19,6 @@ public class SombreroClasificador {
     public static void main(String[] args) {
         System.out.println("Gryffindor: " + clasificar("Gryffindor"));
         System.out.println("Ravenclaw: " + clasificar("Ravenclaw"));
-        System.out.println("Slytherin: " + clasificar("Slytherin"));
+
     }
 }
