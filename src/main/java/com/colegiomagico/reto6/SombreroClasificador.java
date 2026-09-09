@@ -8,7 +8,7 @@ public class SombreroClasificador {
     public static String clasificar(String casa) {
         switch (casa) {
             case "Gryffindor":
-                return "Valentía";
+                return "Valentia";
             case "Ravenclaw":
                 return "Inteligencia";
             default:
@@ -18,7 +18,6 @@ public class SombreroClasificador {
 
     public static void main(String[] args) {
         System.out.println("Gryffindor: " + clasificar("Gryffindor"));
-        System.out.println("Ravenclaw: " + clasificar("Ravenclaw"));
 
     }
 }
